@@ -1,0 +1,166 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+  scroll-behavior: smooth;
+}
+
+.sub-menu-style {
+  @apply w-full py-3 text-center mb-2 border border-[#144352] hover:bg-[#144453] rounded-sm duration-300 min-w-[158px] z-10 block;
+}
+.mobile-sub-menu-style {
+  @apply w-full py-3 text-center mb-2 border border-[#144352] hover:bg-[#144453] rounded-sm duration-300 min-w-[258px] z-10 block;
+}
+
+.sm-menu-style {
+  @apply hover:bg-[#00172F] shadow  rounded-sm my-2 duration-500 cursor-pointer py-3 flex items-center justify-center w-full z-10 block;
+}
+.text-md {
+  font-size: 20px;
+  line-height: 20px;
+}
+.custom-shadow {
+  box-shadow: 0px 24px 48px 8px #011529;
+}
+.custom-bottom-border {
+  border-top: transparent !important;
+  border-left: transparent !important;
+  border-right: transparent !important;
+  border: 0.01px solid rgba(245, 237, 237, 0.19);
+}
+
+.custom-path {
+  -webkit-clip-path: polygon(100% 66%, 100% 86%, 0 47%, 0 27%);
+  clip-path: polygon(100% 66%, 100% 86%, 0 47%, 0 27%);
+}
+.home2-background {
+  background: linear-gradient(38.35deg, #3657cd 34.77%, #5d78d6 84.87%);
+}
+
+.primary-navbar {
+  position: absolute !important;
+  transition: 0.5s linear;
+  top: 0 !important;
+  box-shadow: 0px -5px 5px -5px rgba(0, 0, 0, 0.5);
+}
+.navbar-bg {
+  position: fixed !important;
+  top: 0px !important;
+  z-index: 9999 !important;
+  transition: 0.3s linear;
+  background: rgba(6, 60, 239, 0.524);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.7px);
+  -webkit-backdrop-filter: blur(3.7px);
+}
+
+.custom-shadow-left {
+  box-shadow: -2px 0px 2px -1px rgba(0, 0, 0, 0.5) inset;
+}
+.cuystom-gradient {
+  background: linear-gradient(
+    151.76deg,
+    rgba(249, 199, 71, 0) -8.92%,
+    #f9c747 115.63%
+  );
+}
+
+.custom-scroll::-webkit-scrollbar {
+  width: 0.2px;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+  background-color: blue;
+}
+
+.slick-active > button::before {
+  color: #3657cd !important;
+  font-size: 14px;
+}
+
+.slick-dots > li > button::before {
+  color: #e6e6e9ea;
+  font-size: 14px;
+}
+
+.swiper-slide-active,
+.swiper-slide {
+  /* width: 162px !important; */
+}
+.sm_d_h1 {
+  font-size: 62px;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  text-transform: none;
+  line-height: 64px;
+  letter-spacing: 0px;
+}
+.header {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 90px;
+  font-weight: 700;
+  text-transform: none;
+  line-height: 0.8em;
+  letter-spacing: 0px;
+}
+.medium_header,
+.my_h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 60px;
+  text-align: center;
+}
+.sm_d_h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 38px;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 44px;
+  text-align: center;
+}
+
+.pre_text,
+.sm_header {
+  font-family: "Helvetica", Sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: none;
+  line-height: 27px;
+}
+.sm_pre_text {
+  font-family: "Helvetica", Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: none;
+  line-height: 30px;
+}
+
+.card_header,
+.my_h4 {
+  font-family: "Baloo Tamma 2", Sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  text-transform: none;
+  line-height: 40px;
+}
+.swiper-button-next,.swiper-button-prev {
+  color: white;
+  background-color: orange;
+  padding: 20px;
+  border-radius: 50%;
+
+  height: 15px;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 20px !important;
+}
+
+.text_star {
+  text-align: left;
+}
